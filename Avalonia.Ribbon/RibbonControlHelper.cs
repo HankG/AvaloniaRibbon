@@ -8,7 +8,7 @@ namespace Avalonia.Controls.Ribbon
 {
     public static class RibbonControlHelper<T> where T : AvaloniaObject, ILayoutable
     {
-        static readonly AvaloniaProperty<RibbonControlSize> SizeProperty = AvaloniaProperty.Register<IRibbonControl, RibbonControlSize>("Size", RibbonControlSize.Large, validate: ValidateSize);
+        static readonly AvaloniaProperty<RibbonControlSize> SizeProperty = AvaloniaProperty.Register<IRibbonControl, RibbonControlSize>("Size", RibbonControlSize.Large);
         static readonly AvaloniaProperty<RibbonControlSize> MinSizeProperty = AvaloniaProperty.Register<IRibbonControl, RibbonControlSize>("MinSize", RibbonControlSize.Small);
         static readonly AvaloniaProperty<RibbonControlSize> MaxSizeProperty = AvaloniaProperty.Register<IRibbonControl, RibbonControlSize>("MaxSize", RibbonControlSize.Large);
 
